@@ -54,11 +54,12 @@ img {
 
 .intro-text {
     font-family: 'DM Sans';
-    font-size: 3rem;
-    line-height: 3.2rem;
-    letter-spacing: -0.1rem;
+    font-size: calc(100vw/25);
+    /* font-size: 3rem; */
+    line-height: calc(100vw/26);
+    letter-spacing: -0.07rem;
     color: white;
-    max-width: 55%;
+    max-width: 53%;
     color: rgb(255, 255, 255);
     position: absolute;
     top: 8px;
@@ -99,10 +100,10 @@ img {
 .wwd-text {
     float: left;
     width: calc(47vw - 2rem);
-    height:calc(100vw/47*10);
+    height: calc(100vw/47*10);
     font-family: 'DM Sans';
-    font-size: 1.5rem;
-    line-height: 1.8rem;
+    font-size: calc(100vw/55);
+    line-height: calc(100vw/50);
     color: rgb(255, 255, 255);
     padding: 1rem;
     border-bottom: 1px;
