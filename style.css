@@ -403,14 +403,14 @@
         }
 
         .wwd-img {
-            width: calc(100vw - 40px);
+            width: calc(100vw - 60px);
             border-width: 0px 1px 0px 1px;
             margin-left: 20px;
             margin-right: 20px;
         }
 
         .wwd-img-1col {
-            width: calc(100vw - 40px);
+            width: calc(100vw - 60px);
             border-width: 0px 1px 0px 1px;
             margin-left: 20px;
             margin-right: 20px;
