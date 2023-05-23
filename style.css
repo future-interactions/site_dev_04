@@ -1,113 +1,579 @@
-html,
-body {
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-    font-family: 'DM Sans';
-    font-size: 1rem;
-    color: rgb(79, 79, 79);
-}
+    #root {
+        width: 100%;
+        height: 100%;
+    }
 
-img {
-    display: block;
-}
+    html,
+    body {
+        margin: 0px;
+        padding: 0px;
+        background-color: rgb(0, 0, 0);
+        font-family: 'DM Sans';
+        font-size: 1rem;
+        color: rgb(79, 79, 79);
+    }
 
-.header {
-    position: relative;
-    /* width: 100vw; */
-    background-color: rgb(0, 0, 0);
-    padding: 1rem 0rem 1rem 0rem;
-    border: rgb(255, 255, 255);
-    border-style: dotted;
-    border-width: 1px;
-}
+    img {
+        display: block;
+    }
 
+    video {
 
+        object-fit: cover;
+        width: 100%;
+    }
 
-.header-title {
-    font-family: 'DM Sans';
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    margin-left: 1em;
+    mark{
+        background-color:aquamarine;
+        opacity: 90%;
+    }
 
-}
-
-.header-title a {
-    font-family: 'DM Sans';
-    font-size: 1rem;
-    color: rgb(255, 255, 255);
-    float: right;
-    margin-right: 1em;
-
-}
-
-.intro-container {
-    position: relative;
-    /* width: 100vw; */
-    border: rgb(255, 255, 255);
-    border-style: dotted;
-    border-width: 1px;
-    overflow: hidden;
+    .header {
+        box-sizing: border-box;
+        position: relative;
+        padding: 1rem 0rem 1rem 0rem;
+    }
 
 
-}
+    .header-title {
+        font-family: 'DM Sans';
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        margin-left: 1em;
 
-.intro-text {
-    font-family: 'DM Sans';
-    font-size: calc(100vw/25);
-    /* font-size: 3rem; */
-    line-height: calc(100vw/26);
-    letter-spacing: -0.07rem;
-    color: white;
-    max-width: 53%;
-    color: rgb(255, 255, 255);
-    position: absolute;
-    top: 8px;
-    left: 16px;
+    }
 
-}
+    .header-title a {
+        font-family: 'DM Sans';
+        font-size: 1rem;
+        color: rgb(255, 255, 255);
+        float: right;
+        margin-right: 1em;
 
-.ticker {
-    position: relative;
-    height: 3rem;
-    border: rgb(255, 255, 255);
-    border-style: dotted;
-    border-width: 1px;
-    overflow: hidden;
-}
+    }
 
-.what-we-do-container {
-    position: relative;
-    border: rgb(255, 255, 255);
-    border-style: dotted;
-    border-width: 1px;
-    overflow: hidden;
-    float: left;
-}
+    .dotted-border {
+        border-style: dotted;
+        border-color: rgb(102, 102, 102);
+    }
 
-.vert-spacer {
-    width: 3vw;
-    float: left;
+    .intro-container {
+        box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
+        width: 100vw;
+        /* height: calc(100vW/3); */
+        display: flex;
+        border-width: 1px 0px 1px 0px;
 
-}
+    }
 
-.wwd-img {
-    float: left;
-    width: 47vw;
+    .intro-text {
+        font-family: 'DM Sans';
+        font-size: calc(100vw/23);
+        line-height: calc(100vw/23);
+        letter-spacing: -0.08rem;
+        color: white;
+        max-width: 60%;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 1vw;
+        left: 3vw;
+    }
 
-}
+    .what-we-do-container {
+        box-sizing: border-box;
+        position: relative;
+        /* height: 100%; */
+        overflow: hidden;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        border-width: 1px 0px 1px 0px;
+    }
 
-.wwd-text {
-    float: left;
-    width: calc(47vw - 2rem);
-    height: calc(100vw/47*10);
-    font-family: 'DM Sans';
-    font-size: calc(100vw/55);
-    line-height: calc(100vw/50);
-    color: rgb(255, 255, 255);
-    padding: 1rem;
-    border-bottom: 1px;
-    border-top: 0px;
-    border-style: dotted;
-    /* border-width: 1px; */
-}
+    .vert-spacer {
+        width: 2vw;
+        float: left;
+        overflow: hidden;
+    }
+
+    .wwd-img {
+        box-sizing: border-box;
+        float: left;
+        width: 48vw;
+        border-width: 0px 0px 0px 1px;
+    }
+    .wwd-img-1col {
+        box-sizing: border-box;
+        float: left;
+        width: 24vw;
+        border-width: 0px 0px 0px 1px;
+    }
+
+    .wwd-text {
+        box-sizing: border-box;
+        float: left;
+        width: 48vw;
+        color: rgb(255, 255, 255);
+        font-family: 'DM Sans';
+        font-size: calc(100vw/39);
+        line-height: calc(100vw/36);
+        padding: 1vw 6vw 2vw 1vw;
+        /* background-color: rgb(69, 1, 255); */
+        border-width: 0px 1px 0px 1px;
+    }
+    .wwd-text-3col {
+        box-sizing: border-box;
+        float: left;
+        width: 72vw;
+        color: rgb(255, 255, 255);
+        font-family: 'DM Sans';
+        font-size: calc(100vw/39);
+        line-height: calc(100vw/36);
+        padding: 1vw 6vw 2vw 1vw;
+        /* background-color: rgb(69, 1, 255); */
+        border-width: 0px 1px 0px 1px;
+    }
+
+
+    .process-container {
+        box-sizing: border-box;
+        position: relative;
+        height: 50vw;
+        overflow: hidden;
+        float: left;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .stages {
+        box-sizing: border-box;
+        float: left;
+        width: 24vw;
+        border-width: 0px 0px 0px 1px;
+    }
+
+    .stages-3col {
+        box-sizing: border-box;
+        float: left;
+        width: 30vw;
+        border-width: 0px 0px 0px 1px;
+    }
+
+    .stages-end {
+        box-sizing: border-box;
+        float: left;
+        width: 24vw;
+        border-width: 0px 1px 0px 1px;
+    }
+
+    .stages-text {
+        font-family: 'DM Sans';
+        font-size: calc(100vw/23);
+        /* font-size: 3rem; */
+        line-height: calc(100vw/23);
+        letter-spacing: -0.08rem;
+        color: white;
+        max-width: 75%;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 1vw;
+        left: 3vw;
+    }
+    .stages-text-small {
+        font-family: 'DM Sans';
+        font-size: calc(100vw/39);
+        line-height: calc(100vw/36);
+        letter-spacing: -0.08rem;
+        color: white;
+        max-width: 75%;
+        color: rgb(255, 255, 255);
+        position: absolute;
+        top: 1vw;
+        left: 3vw;
+    }
+
+    .stage-container {
+        box-sizing: border-box;
+        position: relative;
+        height: 100%;
+        width: 100%;
+        /* height: 30vw; */
+        border-width: 0px 0px 0px 0px;
+        overflow: hidden;
+        float: left;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .stage-number {
+        position: relative;
+        top: 45%;
+        left: 0.9rem;
+        border-radius: 50%;
+        width: calc(100vw/55);
+        height: calc(100vw/55);
+        line-height: calc(100vw/55);
+        padding: 10px;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        text-align: center;
+        font-family: 'DM Sans';
+        font-size: calc(100vw/55);
+    }
+
+    .stage-description {
+        position: relative;
+        /* float: bottom;     */
+        top: 48%;
+        left: 1.2vw;
+        padding-right: 2vw;
+        font-family: 'DM Mono';
+        color: #ffffff;
+        font-size: calc(100vw/75);
+        line-height: calc(100vw/55);
+    }
+    .stage-description-3col {
+        position: relative;
+        /* float: bottom;     */
+        top: 28%;
+        left: 1.2vw;
+        padding-right: 2vw;
+        font-family: 'DM Mono';
+        color: #ffffff;
+        font-size: calc(100vw/75);
+        line-height: calc(100vw/55);
+    }
+    .get-in-touch-container {
+        box-sizing: border-box;
+        position: relative;
+        /* height: 100%; */
+        overflow: hidden;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        border-width: 1px 0px 1px 0px;
+    }
+
+    .g-i-t-img {
+        box-sizing: border-box;
+        float: left;
+        width: 48vw;
+        border-width: 0px 1px 0px 1px;
+    }
+
+    .g-i-t-text {
+        box-sizing: border-box;
+        float: left;
+        width: 48vw;
+        color: rgb(255, 255, 255);
+        font-family: 'DM Sans';
+        font-size: calc(100vw/39);
+        line-height: calc(100vw/36);
+        padding: 2vw;
+        padding-right: 10vw;
+        /* background-color: rgb(69, 1, 255); */
+        border-width: 0px 0px 0px 1px;
+    }
+
+    .g-i-t-text a {
+        color: rgb(255, 255, 255);
+        font-family: 'DM Sans';
+        font-size: calc(100vw/39);
+        line-height: calc(100vw/36);
+    }
+
+    .footer {
+        box-sizing: border-box;
+        overflow: hidden;
+        float: left;
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        top: 1vw;
+        left: 1vw;
+        color: rgb(102, 102, 102);
+        font-family: 'DM Sans';
+        font-size: 1rem;
+        line-height: 1.2rem;
+
+    }
+
+    /* ticker css */
+
+
+    /* the container div */
+    #tickerContainer {
+        display: flex;
+        /* forces the items to sit alongside each other */
+        flex-wrap: nowrap;
+        /* forces the contents into one line */
+        width: 100vw;
+        /* change this to be whatever you want the ticker width to be */
+        height: 3rem;
+        /* change this to be whatever you want the ticker height to be */
+        position: relative;
+        /* change this to be absolute and assign positions to place in specific position on the page */
+        overflow: hidden;
+        /* this hides all content not within it's boundary */
+        font-family: 'DM Sans';
+        color: rgb(255, 255, 255);
+        font-size: 1rem;
+        /* change this to whatever size you want the type to be */
+        line-height: 3rem;
+        /* places the type in the center of the container. Make this the same value as container height */
+    }
+
+    /* the main ticker div which sits within the container */
+    #tickerMain {
+        display: flex;
+        /* forces the items to sit alongside each other */
+        flex-wrap: nowrap;
+        /*forces the contents into one line - e.g no line breaks in the type*/
+        height: inherit;
+        /*inherits the height value from the container */
+        position: absolute;
+        /* ensures that the position can be updated when nested in the container - this needs to stay as absolute */
+        white-space: nowrap;
+        /* forces the contents into one line without drawing dynamically as the contents appear within the container - e.g no line breaks in the type */
+    }
+
+    /* the clone ticker div which sits within the container */
+    /* comments as above */
+    #tickerClone {
+        display: flex;
+        flex-wrap: nowrap;
+        height: inherit;
+        position: absolute;
+        white-space: nowrap;
+        left: 100vw;
+    }
+
+
+    .dottedhr {
+        display: none;
+        border-width: 0px 0px 0x 0px;
+        /* background-color: aqua; */
+
+    }
+
+    @media screen and (max-width: 650px) {
+
+        video {
+
+            margin-left: 50vw;
+            transform: translate(-50%);
+            width: auto;
+
+        }
+
+        .intro-container {
+
+            width: 100%;
+            height: 100%;
+            align-items: center;
+        }
+
+        .intro-text {
+
+            font-size: 2.3rem;
+            line-height: 2.3rem;
+            letter-spacing: -0.08rem;
+            max-width: 90%;
+            position: absolute;
+            top: 3rem;
+            left: 1rem;
+        }
+
+        .what-we-do-container {
+            box-sizing: border-box;
+            position: relative;
+            /* height: 100%; */
+            overflow: hidden;
+            float: left;
+            display: flex;
+            flex-direction: column-reverse;
+            border-width: 1px 0px 0x 0px;
+        }
+
+        .vert-spacer {
+            display: none;
+
+        }
+
+        .wwd-img {
+            width: calc(100vw - 40px);
+            border-width: 0px 1px 0px 1px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+
+        .wwd-text {
+            font-size: 1.8rem;
+            line-height: 1.9rem;
+            letter-spacing: -0.08rem;
+            width: calc(100% - 40px);
+            padding: 1rem 1rem 2rem 1rem;
+            /* background-color: rgb(69, 1, 255); */
+            border-width: 0px 0px 0px 0px;
+            background-color: rgb(0, 0, 0);
+
+
+        }
+
+        .process-container {
+            top: 0px;
+            left: 0px;
+            box-sizing: border-box;
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+            float: left;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        .dottedhr {
+            display: flex;
+            margin: 0;
+            margin-bottom: 0.;
+            margin-left: auto;
+            margin-right: auto;
+            border-width: 1px 0px 0px 0px;
+
+            width: 100%;
+
+        }
+
+        .stages {
+            top: 0px;
+            left: 0px;
+            box-sizing: border-box;
+            float: left;
+            width: 100%;
+            border-width: 0px 0px 0px 0px;
+            height: 100%;
+            top: 3rem;
+        }
+
+        .stages-end {
+            top: 0px;
+            left: 0px;
+            box-sizing: border-box;
+            float: left;
+            width: 100%;
+            border-width: 0px 0px 0px 0px;
+            height: 100%;
+        }
+
+        .stages-text {
+            top: 0px;
+            left: 0px;
+            position: relative;
+            padding: 1rem;
+            height: 100%;
+            font-size: 1.8rem;
+            line-height: 1.9rem;
+            letter-spacing: -0.08rem;
+            max-width: 100%;
+            padding: 1rem 1rem 2rem 1rem;
+
+        }
+
+        .stage-container {
+            top: 0px;
+            left: 0px;
+            height: 100%;
+            width: calc(100% - 40px);
+            overflow: hidden;
+            padding: 1rem 1rem 2rem 1rem;
+            border-width: 0px 1px 0px 1px;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+
+        .stage-number {
+            top: 0px;
+            left: 0px;
+            position: relative;
+            /* top: 3rem; */
+            padding: 1rem;
+            width: 2.2rem;
+            height: 2.2rem;
+            line-height: 2.2rem;
+
+            font-size: 2.2rem;
+        }
+
+        .stage-description {
+            position: relative;
+            /* float: bottom;     */
+            /* top: 65%; */
+            top: 0px;
+            left: 0px;
+            padding-top: 1rem;
+            /* padding: 1rem; */
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+        }
+
+        .get-in-touch-container {
+            top: 0px;
+            left: 0px;
+            box-sizing: border-box;
+            position: relative;
+            height: 100%;
+            overflow: hidden;
+            float: left;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .g-i-t-img {
+            width: 100vw;
+            border-width: 1px 0px 0px 0px;
+
+            border-left: rgb(102, 102, 102);
+            border-right: rgb(102, 102, 102);
+        }
+
+        .g-i-t-text {
+            top: 0px;
+            left: 0px;
+            position: relative;
+            padding: 1rem;
+            height: 100%;
+            font-size: 1.8rem;
+            line-height: 1.9rem;
+            letter-spacing: -0.08rem;
+            max-width: 100%;
+            width: auto;
+            padding: 1rem 1rem 2rem 1rem;
+            /* background-color: rgb(69, 1, 255); */
+            border-width: 0px 0px 0px 0px;
+            background-color: rgb(0, 0, 0);
+            width: 90%;
+
+
+        }
+
+        .g-i-t-text a {
+            color: rgb(255, 255, 255);
+            font-family: 'DM Sans';
+            font-size: 1.8rem;
+            line-height: 1.9rem;
+        }
+
+        .footer {
+
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-top: 5px;
+            font-size: 0.7rem;
+            line-height: 0.8rem;
+
+        }
+    }
