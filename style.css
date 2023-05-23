@@ -409,6 +409,14 @@
             margin-right: 20px;
         }
 
+        .wwd-img-1col {
+            width: calc(100vw - 40px);
+            border-width: 0px 1px 0px 1px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+    
+
         .wwd-text {
             font-size: 1.8rem;
             line-height: 1.9rem;
@@ -419,6 +427,17 @@
             border-width: 0px 0px 0px 0px;
             background-color: rgb(0, 0, 0);
 
+
+        }
+        .wwd-text-3col {
+            font-size: 1.8rem;
+            line-height: 1.9rem;
+            letter-spacing: -0.08rem;
+            width: calc(100% - 40px);
+            padding: 1rem 1rem 2rem 1rem;
+            /* background-color: rgb(69, 1, 255); */
+            border-width: 0px 0px 0px 0px;
+            background-color: rgb(0, 0, 0);
 
         }
 
