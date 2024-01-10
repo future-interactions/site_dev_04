@@ -23,8 +23,8 @@
         width: 100%;
     }
 
-    mark{
-        background-color:aquamarine;
+    mark {
+        background-color: aquamarine;
         opacity: 90%;
     }
 
@@ -104,6 +104,7 @@
         width: 48vw;
         border-width: 0px 0px 0px 1px;
     }
+
     .wwd-img-1col {
         box-sizing: border-box;
         float: left;
@@ -117,19 +118,20 @@
         width: 48vw;
         color: rgb(255, 255, 255);
         font-family: 'DM Sans';
-        font-size: calc(100vw/39);
+        font-size: calc(100vw/40);
         line-height: calc(100vw/36);
         padding: 1vw 6vw 2vw 1vw;
         /* background-color: rgb(69, 1, 255); */
         border-width: 0px 1px 0px 1px;
     }
+
     .wwd-text-3col {
         box-sizing: border-box;
         float: left;
         width: 72vw;
         color: rgb(255, 255, 255);
         font-family: 'DM Sans';
-        font-size: calc(100vw/39);
+        font-size: calc(100vw/40);
         line-height: calc(100vw/36);
         padding: 1vw 6vw 2vw 1vw;
         /* background-color: rgb(69, 1, 255); */
@@ -140,11 +142,12 @@
     .process-container {
         box-sizing: border-box;
         position: relative;
-        height: 50vw;
+        height: 70vw;
         overflow: hidden;
         float: left;
         display: flex;
         flex-direction: row;
+
     }
 
     .stages {
@@ -171,16 +174,16 @@
     .stages-text {
         font-family: 'DM Sans';
         font-size: calc(100vw/23);
-        /* font-size: 3rem; */
         line-height: calc(100vw/23);
         letter-spacing: -0.08rem;
         color: white;
-        max-width: 75%;
+        max-width: 60%;
         color: rgb(255, 255, 255);
         position: absolute;
         top: 1vw;
         left: 3vw;
     }
+
     .stages-text-small {
         font-family: 'DM Sans';
         font-size: calc(100vw/39);
@@ -209,7 +212,7 @@
 
     .stage-number {
         position: relative;
-        top: 45%;
+        top: 40%;
         left: 0.9rem;
         border-radius: 50%;
         width: calc(100vw/55);
@@ -226,14 +229,27 @@
     .stage-description {
         position: relative;
         /* float: bottom;     */
-        top: 48%;
+        top: 45%;
         left: 1.2vw;
-        padding-right: 2vw;
+        padding-right: 3vw;
         font-family: 'DM Mono';
         color: #ffffff;
-        font-size: calc(100vw/75);
+        font-size: calc(100vw/95);
         line-height: calc(100vw/55);
     }
+
+    .stage-img {
+        position: relative;
+        float: bottom;
+        top: 47%;
+        /* left: 1.2vw; */
+        /* padding-right: 2vw; */
+        font-family: 'DM Mono';
+        color: #ffffff;
+        font-size: calc(100vw/95);
+        line-height: calc(100vw/55);
+    }
+
     .stage-description-3col {
         position: relative;
         /* float: bottom;     */
@@ -245,6 +261,7 @@
         font-size: calc(100vw/75);
         line-height: calc(100vw/55);
     }
+
     .get-in-touch-container {
         box-sizing: border-box;
         position: relative;
@@ -269,7 +286,7 @@
         width: 48vw;
         color: rgb(255, 255, 255);
         font-family: 'DM Sans';
-        font-size: calc(100vw/39);
+        font-size: calc(100vw/40);
         line-height: calc(100vw/36);
         padding: 2vw;
         padding-right: 10vw;
@@ -297,7 +314,14 @@
         font-family: 'DM Sans';
         font-size: 1rem;
         line-height: 1.2rem;
+    }
 
+    .horizontal-spacer {
+        display: flex;
+        width: 100vw;
+        height: 2vw;
+        box-sizing: border-box;
+        border-width: 1px 0px 0px 0px;
     }
 
     /* ticker css */
@@ -323,6 +347,7 @@
         /* change this to whatever size you want the type to be */
         line-height: 3rem;
         /* places the type in the center of the container. Make this the same value as container height */
+
     }
 
     /* the main ticker div which sits within the container */
@@ -337,6 +362,7 @@
         /* ensures that the position can be updated when nested in the container - this needs to stay as absolute */
         white-space: nowrap;
         /* forces the contents into one line without drawing dynamically as the contents appear within the container - e.g no line breaks in the type */
+
     }
 
     /* the clone ticker div which sits within the container */
@@ -353,7 +379,7 @@
 
     .dottedhr {
         display: none;
-        border-width: 0px 0px 0x 0px;
+        border-width: 0px 0px 0px 0px;
         /* background-color: aqua; */
 
     }
@@ -415,7 +441,7 @@
             margin-left: 20px;
             margin-right: 20px;
         }
-    
+
 
         .wwd-text {
             font-size: 1.8rem;
@@ -429,6 +455,7 @@
 
 
         }
+
         .wwd-text-3col {
             font-size: 1.8rem;
             line-height: 1.9rem;
