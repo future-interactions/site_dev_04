@@ -142,7 +142,7 @@
     .process-container {
         box-sizing: border-box;
         position: relative;
-        height: 70vw;
+        height: 77vw;
         overflow: hidden;
         float: left;
         display: flex;
@@ -574,6 +574,8 @@
             /* padding-right: 2vw; */
             /* font-family: 'DM Mono';
             color: #ffffff; */
+            width: 100vw;
+
         }
 
         .get-in-touch-container {
@@ -586,6 +588,14 @@
             float: left;
             display: flex;
             flex-direction: column;
+        }
+
+        .horizontal-spacer {
+            display: flex;
+            width: 100vw;
+            height: 2vw;
+            box-sizing: border-box;
+            border-width: 1px 0px 0px 0px;
         }
 
         .g-i-t-img {
