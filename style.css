@@ -244,10 +244,10 @@
         top: 47%;
         /* left: 1.2vw; */
         /* padding-right: 2vw; */
-        font-family: 'DM Mono';
+        /* font-family: 'DM Mono';
         color: #ffffff;
         font-size: calc(100vw/95);
-        line-height: calc(100vw/55);
+        line-height: calc(100vw/55); */
     }
 
     .stage-description-3col {
@@ -408,7 +408,7 @@
             letter-spacing: -0.08rem;
             max-width: 90%;
             position: absolute;
-            top: 3rem;
+            top: 2rem;
             left: 1rem;
         }
 
@@ -564,6 +564,16 @@
             /* padding: 1rem; */
             font-size: 1.2rem;
             line-height: 1.6rem;
+        }
+
+        .stage-img {
+            position: relative;
+            float: bottom;
+            /* top: 47%; */
+            /* left: 1.2vw; */
+            /* padding-right: 2vw; */
+            /* font-family: 'DM Mono';
+            color: #ffffff; */
         }
 
         .get-in-touch-container {
