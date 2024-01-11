@@ -37,9 +37,9 @@
 
     .header-title {
         font-family: 'DM Sans';
-        font-size: 1rem;
+        font-size: rem;
         color: rgb(255, 255, 255);
-        margin-left: 1em;
+        margin-left: 2vw;
 
     }
 
@@ -48,7 +48,7 @@
         font-size: 1rem;
         color: rgb(255, 255, 255);
         float: right;
-        margin-right: 1em;
+        margin-right: 2vw;
 
     }
 
@@ -70,15 +70,15 @@
 
     .intro-text {
         font-family: 'DM Sans';
-        font-size: calc(100vw/23);
-        line-height: calc(100vw/23);
+        font-size: calc(100vw/17);
+        line-height: calc(100vw/18);
         letter-spacing: -0.08rem;
-        color: white;
-        max-width: 60%;
+                color: white;
+        /* max-width: 60%; */
         color: rgb(255, 255, 255);
         position: absolute;
-        top: 1vw;
-        left: 3vw;
+        top: 2vw;
+        left: 2vw;
     }
 
     .what-we-do-container {
