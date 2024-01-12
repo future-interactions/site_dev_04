@@ -591,11 +591,8 @@
         }
 
         .horizontal-spacer {
-            display: flex;
-            width: 100vw;
-            height: 2vw;
-            box-sizing: border-box;
-            border-width: 1px 0px 0px 0px;
+            display: none;
+
         }
 
         .g-i-t-img {
