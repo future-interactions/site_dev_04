@@ -571,7 +571,7 @@
             float: bottom;
             /* top: 47%; */
             /* left: 1.2vw; */
-            /* padding-right: 2vw; */
+            padding-right: -2vw;
             /* font-family: 'DM Mono';
             color: #ffffff; */
             width: 100vw;
