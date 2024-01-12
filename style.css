@@ -567,15 +567,7 @@
         }
 
         .stage-img {
-            position: relative;
-            float: bottom;
-            /* top: 47%; */
-            left: 0vw;
-            right: 0vw;
-            /* padding-right: 0vw; */
-            /* font-family: 'DM Mono';
-            color: #ffffff; */
-            width: 100vw;
+        display: none;
 
         }
 
