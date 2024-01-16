@@ -93,18 +93,15 @@
     } */
 
     .what-we-do-container {
-     display: none;
-    }
-
-    .what-we-do-3-col-container {
         box-sizing: border-box;
         position: relative;
+        /* height: 100%; */
         overflow: hidden;
         float: left;
         display: flex;
         flex-direction: row;
         border-width: 1px 0px 1px 0px;
-       }
+    }
 
     .vert-spacer {
         width: 2vw;
@@ -167,7 +164,6 @@
         float: left;
         display: flex;
         flex-direction: row;
-        border-width: 1px 0px 0px 0px;
 
     }
 
