@@ -241,7 +241,7 @@
     .stage-img {
         position: relative;
         float: bottom;
-        top: 47%;
+        top: 47.5%;
         /* left: 1.2vw; */
         /* padding-right: 2vw; */
         /* font-family: 'DM Mono';
@@ -568,7 +568,6 @@
 
         .stage-img {
         display: none;
-
         }
 
         .get-in-touch-container {
