@@ -245,7 +245,6 @@
 
     .stage-description {
         position: relative;
-        /* float: bottom;     */
         top: 45%;
         left: 1.2vw;
         padding-right: 4vw;
@@ -256,9 +255,9 @@
     }
 
     .stage-img {
-        position: relative;
-        float: bottom;
-        top: 47.5%;
+        position: absolute;
+        /* float: bottom; */
+        top: 85%;
         /* left: 1.2vw; */
         /* padding-right: 2vw; */
         /* font-family: 'DM Mono';
